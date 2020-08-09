@@ -1,5 +1,6 @@
 defmodule Minimal.Application do
-    def start do
-        IO.puts("Howdy.")
-    end
+  def start(:normal, []) do
+    IO.puts("Howdy.")
+    {:ok, self()}
+  end
 end
