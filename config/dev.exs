@@ -1,5 +1,5 @@
 use Mix.Config
 
 config :minimal, MinimalWeb.Endpoint,
-  url: [host: "localhost"],
-  http: [port: 4000]
+  http: [port: 4000],
+  code_reloader: true
